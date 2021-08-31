@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+.img-size{
+    width: 50px;
+    height: 45px;
+}
+
+.navbar-admin {
+    background-color: white;
+    margin-top: 0.5rem;
+    padding: 5px;
+}
+
+.logo-img, .logout-btn{
+    padding: 5px;
+}
+
+.message {
+    background-color: white;
+    width: 1000px;
+    height: auto;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 20px #E7E7E7;
+}
+
+.text-title {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div .btn-rol{
+    color: white;
+    background-color: #5aa4ed;
+    padding: 5px;
+}
+
+.dashboard {
+    box-shadow: 5px 5px 20px #E7E7E7;
+    background-color: white;
+    margin: 30px;
+    padding: 10px;
+}
+
+.box {
+    background-color: #6DB883;
+    border-radius: 10px;
+    display: inline-flex;
+}
+
+.box:hover {
+    transition: 0.5s;
+    background-color: #528C63;
+}
+
+
+.box2 {
+    background-color: #FF7B7B;
+    width: auto;
+    border-radius: 10px;
+    display: inline-flex;
+}
+
+.box2:hover {
+    transition: 0.5s;
+    background-color: #d47171;
+}
+
+
+.box3 {
+    background-color: #9AC0FF;
+    width: auto;
+    border-radius: 10px;
+    display: inline-flex;
+}
+
+.box3:hover {
+    transition: 0.5s;
+    background-color: #6e8bb9;
+}
+
+
+.box4 {
+    background-color: #FFC17B;
+    width: auto;
+    border-radius: 10px;
+    display: inline-flex;
+}
+
+.box4:hover {
+    transition: 0.5s;
+    background-color: #be8e56;
+}
+
+
+
+.info {
+    padding: 20px;
+}
+
+.info-title{
+    font-size:20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.info-subtitle{
+    font-size: 15px;
+    color: white;
+}
+
+.info-title:hover{
+    color: white;
+    transition: 0.3s;
+    font-size: 22px;
+
+}
+
+.data-circle {
+    width: auto;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.data-php{
+    color: #6DB883;
+    font-size: 25px;
+
+}
+.icon{
+    border-radius: 50px;
+    background-color: white;
+    padding: 20px;
+    margin: 30px;
+
+}
+
+.icon-image {
+    width: 32px;
+    height: 32px;
+}

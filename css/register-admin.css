@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+.register-title{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    font-size: 40px;
+    color: #090707;
+    opacity: 1;
+}
+
+
+.register-box{
+    margin-top: 35px;
+    background-color: #FCFDFC;
+    width: 700px;
+    height: 850px;
+    box-shadow: 5px 5px 20px #E7E7E7;
+}
+
+.box2-register{
+    border-color: black;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 700px;
+    width: 700px;
+    height: 180px;
+    box-shadow: 5px 5px 20px #E7E7E7;
+}
+
+
+.form-register{
+    margin-top: 40px;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+
+.img-register{
+    width: 100px;
+    height: 100px;
+}
+
+.input-form{
+    border-bottom-width: 0.5px;
+    height: 40px;
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: black;
+    box-shadow: none;
+    background-color: #FCFDFC ;
+    margin: 15px;
+}
+
+.input-font{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.btn-login{
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 25px;
+    background-color: #6DB883;
+    border-radius: 5px;
+}
+
+.register-link{
+    margin: 30px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
