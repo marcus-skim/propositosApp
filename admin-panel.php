@@ -105,23 +105,29 @@ if (isset($_SESSION['name'])) {
 
             <div class="col-sm-3">
                 <div class="box3">
-
-                </div>
-
-                <div class="col-sm-3">
-                    <div class="box4">
-                        <div class="icon">
-                            <img class="icon-image" src="./icons/users4.svg" alt="">
-                        </div>
-                        <div class="info">
-                            <div class="info-title">Funcion 4</div>
-
-                        </div>
+                    <div class="icon d-flex align-self-center">
+                        <img class="icon-image" src="./icons/users3.svg" alt="">
+                    </div>
+                    <div class="info d-flex align-self-center">
+                        <a class="info-title" href="./view-users.php">Ver datos de usuario</a>
                     </div>
                 </div>
-
             </div>
+
+            <div class="col-sm-3">
+                <div class="box4">
+                    <div class="icon">
+                        <img class="icon-image" src="./icons/users4.svg" alt="">
+                    </div>
+                    <div class="info">
+                        <div class="info-title">Funcion 4</div>
+
+                    </div>
+                </div>
+            </div>
+
         </div>
+    </div>
 
 
 
@@ -132,10 +138,10 @@ if (isset($_SESSION['name'])) {
 
 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
-        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    </script>
 
-        </body>
+    </body>
 
 </html>
