@@ -38,16 +38,60 @@ div .btn-rol {
     padding: 5px;
 }
 
+.table-users {
+    margin-top: 30px;
+}
+
 .table-title {
-    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 30px;
     font-family: 'Montserrat', sans-serif;
 }
 
-.user-num {
-    font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
+.table-users-content {
+    padding: 10px;
+    margin-top: 30px;
 }
+
 
 .table-font {
     font-family: 'Montserrat', sans-serif;
+}
+
+
+.btn-delete {
+    margin: 10px;
+}
+
+.btn-update {
+    margin: 10px;
+}
+
+.btn-delete a {
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #E15151;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-update a {
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #569962;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-update a:hover {
+    color: white;
+    background-color: #477C51;
+    text-decoration: none;
+}
+
+.btn-delete a:hover {
+    color: white;
+    background-color: #B43F3F;
+    text-decoration: none;
 }

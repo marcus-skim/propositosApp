@@ -65,7 +65,6 @@ if (isset($_SESSION['name'])) {
     $sql = "SELECT * FROM users";
     $query = mysqli_query($conn, $sql);
     $row = mysqli_num_rows($query);
-    $arrayUsers = mysqli_fetch_array($query);
 
     ?>
 

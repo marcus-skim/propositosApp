@@ -57,16 +57,21 @@ if (isset($_SESSION['name'])) {
         </div>
     </div>
 
+    <?php
+    $sql = "SELECT * FROM users";
+    $query = mysqli_query($conn, $sql);
+    $numUsers = mysqli_num_rows($query);
+    $numero = 0;
+
+
+
+    ?>
+
     <div class="container table-users text-center">
         <div class="col-sm-12">
             <div class="table-title">
                 <div>Datos de usuarios registrados.</div>
             </div>
-            <div class="user-num">
-                <div>Total de usuarios:</div>
-            </div>
-
-
             <div class="table-users-content text-center">
                 <table class="table text-center table-font">
                     <thead>
@@ -76,12 +81,38 @@ if (isset($_SESSION['name'])) {
                             <th>Apellido</th>
                             <th>Correo electronico</th>
                             <th>Permisos</th>
+                            <th>Acciones</th>
                         </tr>
                     </thead>
-                    <tr>
-
-                    </tr>
                     <tbody>
+
+                        <?php
+                        while ($numUsers = mysqli_fetch_array($query)) {
+                            echo "<tr>";
+                            echo "<td>" . $numUsers["id"] . "</td>";
+                            echo "<td>" . $numUsers["name"] . "</td>";
+                            echo "<td>" . $numUsers["lastname"] . "</td>";
+                            echo "<td>" . $numUsers["email"] . "</td>";
+                            if ($numUsers["rol"] == 0) {
+                                echo "<td>Administrador</td>";
+                            } elseif ($numUsers["rol"] == 1) {
+                                echo "<td>Usuario</td>";
+                            }
+                            "</tr>";
+                            $numero++;
+                        ?>
+                        <td>
+                            <div class="btn-delete"><a href="">Eliminar</a></div>
+                            <div class="btn-update"><a href="">Actualizar</a></div>
+                        </td>
+
+                        <?php
+                        }
+
+
+                        ?>
+
+
 
                     </tbody>
 
