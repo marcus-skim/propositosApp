@@ -1,4 +1,5 @@
 <?php
+include 'db.php';
 session_start();
 
 if ($_SESSION['rol'] > 0) {
@@ -19,7 +20,7 @@ if (isset($_SESSION['name'])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/admin-panel.css">
+    <link rel="stylesheet" href="./css/view-users.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <title>Panel administrador</title>
@@ -56,10 +57,38 @@ if (isset($_SESSION['name'])) {
         </div>
     </div>
 
+    <div class="container table-users text-center">
+        <div class="col-sm-12">
+            <div class="table-title">
+                <div>Datos de usuarios registrados.</div>
+            </div>
+            <div class="user-num">
+                <div>Total de usuarios:</div>
+            </div>
 
 
+            <div class="table-users-content text-center">
+                <table class="table text-center table-font">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                            <th>Correo electronico</th>
+                            <th>Permisos</th>
+                        </tr>
+                    </thead>
+                    <tr>
 
-    <!-- Consulta para sacar el total de usuarios registrados -->
+                    </tr>
+                    <tbody>
+
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+    </div>
 
 
 

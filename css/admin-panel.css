@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
-.img-size{
+.img-size {
     width: 50px;
     height: 45px;
 }
@@ -12,7 +12,8 @@
     padding: 5px;
 }
 
-.logo-img, .logout-btn{
+.logo-img,
+.logout-btn {
     padding: 5px;
 }
 
@@ -31,7 +32,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-div .btn-rol{
+div .btn-rol {
     color: white;
     background-color: #5aa4ed;
     padding: 5px;
@@ -100,18 +101,18 @@ div .btn-rol{
     padding: 20px;
 }
 
-.info-title{
-    font-size:20px;
+.info-title {
+    font-size: 20px;
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
-.info-subtitle{
+.info-subtitle {
     font-size: 15px;
     color: white;
 }
 
-.info-title:hover{
+.info-title:hover {
     color: white;
     transition: 0.3s;
     font-size: 22px;
@@ -124,12 +125,13 @@ div .btn-rol{
     background-color: white;
 }
 
-.data-php{
+.data-php {
     color: #6DB883;
     font-size: 25px;
 
 }
-.icon{
+
+.icon {
     border-radius: 50px;
     background-color: white;
     padding: 20px;
