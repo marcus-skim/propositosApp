@@ -38,7 +38,7 @@ if (isset($_SESSION['name'])) {
                         </a>
                         <div class="d-flex">
                             <div class="p-3 bd-highlight">
-                                <a class="username" href="">Welcome, <?php echo $_SESSION['name']; ?></a>
+                                <a class="username" href="">Bienvenid@, <?php echo $_SESSION['name']; ?></a>
                             </div>
 
                             <div class="admin-logo"><a href="admin-panel.php" class="admin-logo">Usuario</a></div>
@@ -49,12 +49,34 @@ if (isset($_SESSION['name'])) {
                         </div>
                     </div>
             </div>
-            <div class="row">
-                <div class="col-sm-12 text-center">
-                    <h1>Pagina principal usuario</h1>
-                </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center title">
+                <div class="title-home-user">Aplicacion para propositos</div>
             </div>
         </div>
+    </div>
+
+    <div class="container-fluid propositos-main ">
+        <div class="row">
+            <div class="col-sm-6 text-center">
+                <div class="proposito">
+                    <div class="add-proposito">
+                        <img src="./icons/add-proposito.svg" alt="">
+                    </div>
+                    <div class="span-proposito">Agregar un proposito</div>
+                </div>
+            </div>
+            <div class="col-sm-6 text-center">
+                <div>Propositos</div>
+            </div>
+
+        </div>
+    </div>
 
 
 
@@ -63,9 +85,10 @@ if (isset($_SESSION['name'])) {
 
 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
-        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    </script>
 
 </body>
 

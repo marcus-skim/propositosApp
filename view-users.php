@@ -97,6 +97,8 @@ if (isset($_SESSION['name'])) {
                                 echo "<td>Administrador</td>";
                             } elseif ($numUsers["rol"] == 1) {
                                 echo "<td>Usuario</td>";
+                            } else {
+                                echo "<td>No existe este tipo de usuario</td>";
                             }
                             "</tr>";
                             $numero++;

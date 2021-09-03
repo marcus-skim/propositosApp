@@ -39,7 +39,7 @@ if (isset($_SESSION['name'])) {
                         <div class="d-flex">
 
                             <div class="p-3 bd-highlight">
-                                <a class="username" href="">Welcome, <?php echo $_SESSION['name']; ?></a>
+                                <a class="username" href="">Bienvenido, <?php echo $_SESSION['name']; ?></a>
                             </div>
 
 

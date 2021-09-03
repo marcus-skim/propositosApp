@@ -1,15 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-body{
-    font-family: 'Montserrat', sans-serif;
-}
-
-.img-size{
+.img-size {
     width: 50px;
     height: 45px;
 }
 
-.admin-logo{
+.admin-logo {
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     margin-top: 16px;
     height: 20px;
@@ -18,7 +15,7 @@ body{
     text-decoration: none;
 }
 
-.admin-logo:hover{
+.admin-logo:hover {
     text-decoration: none;
     color: white;
 }
@@ -28,4 +25,14 @@ body{
     color: black;
     text-decoration: none;
     font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title-home-user {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.proposito {
+    background-color: #DADADA;
 }
