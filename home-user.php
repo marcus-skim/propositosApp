@@ -64,20 +64,45 @@ if (isset($_SESSION['name'])) {
     <div class="container-fluid propositos-main">
         <div class="row">
             <div class="col-sm-6">
-                <div class="d-flex justify-content-center">Agregar proposito
-                </div>
-                <div class="d-flex justify-content-center"><img src="./icons/add-proposito.svg" alt="">
+                <div class="d-flex justify-content-center"><a href="" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"><img class="img-proposito" src="./icons/proposito2.svg"
+                            alt=""></a>
                 </div>
             </div>
             <div class="col-sm-6">
-                <div class="d-flex justify-content-center">Mis propositos</div>
-                <div class="d-flex justify-content-center">
+                <div class="d-flex justify-content-center text-color">
                     <ol>
                         <li>Proposito 1</li>
                         <li>Proposito 2</li>
                         <li>Proposito 3</li>
                     </ol>
                 </div>
+            </div>
+        </div>
+
+
+        <!-- Modal -->
+        <div class="modal fade modal-dialog" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <form method="POST" action="add-proposito.php">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Agregar proposito</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <label class="form-label" for="proposito_name">Nombre de proposito</label>
+                            <input class="form-control" type="text" name="proposito_name" id="">
+                            <label class="form-label" for="description_proposito">Descripcion del proposito</label>
+                            <input class="form-control" type="text" name="description_proposito">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="submit" class="btn btn-success">Agregar</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
