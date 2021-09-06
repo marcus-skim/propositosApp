@@ -61,20 +61,24 @@ if (isset($_SESSION['name'])) {
         </div>
     </div>
 
-    <div class="container-fluid propositos-main ">
+    <div class="container-fluid propositos-main">
         <div class="row">
-            <div class="col-sm-6 text-center">
-                <div class="proposito">
-                    <div class="add-proposito">
-                        <img src="./icons/add-proposito.svg" alt="">
-                    </div>
-                    <div class="span-proposito">Agregar un proposito</div>
+            <div class="col-sm-6">
+                <div class="d-flex justify-content-center">Agregar proposito
+                </div>
+                <div class="d-flex justify-content-center"><img src="./icons/add-proposito.svg" alt="">
                 </div>
             </div>
-            <div class="col-sm-6 text-center">
-                <div>Propositos</div>
+            <div class="col-sm-6">
+                <div class="d-flex justify-content-center">Mis propositos</div>
+                <div class="d-flex justify-content-center">
+                    <ol>
+                        <li>Proposito 1</li>
+                        <li>Proposito 2</li>
+                        <li>Proposito 3</li>
+                    </ol>
+                </div>
             </div>
-
         </div>
     </div>
 
