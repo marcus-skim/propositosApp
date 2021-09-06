@@ -1,4 +1,5 @@
 <?php
+require 'db.php';
 session_start();
 
 if (isset($_SESSION['name'])) {
@@ -71,11 +72,23 @@ if (isset($_SESSION['name'])) {
             </div>
             <div class="col-sm-6">
                 <div class="d-flex justify-content-center text-color">
-                    <ol>
-                        <li>Proposito 1</li>
-                        <li>Proposito 2</li>
-                        <li>Proposito 3</li>
-                    </ol>
+                    <?php
+                    $sql = "SELECT * FROM proposito";
+                    $resultado = mysqli_query($conn, $sql);
+                    $numPropositos = mysqli_num_rows($resultado);
+                    $numero = 0;
+
+                    ?>
+                    <ul>
+                        <?php
+                        while ($numPropositos = mysqli_fetch_array($resultado)) {
+                            echo "<li>" . $numPropositos['name_proposito'] . "</li>";
+                            $numero++;
+                        }
+                        ?>
+                    </ul>
+                    <?php
+                    ?>
                 </div>
             </div>
         </div>
